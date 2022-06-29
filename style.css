@@ -9,7 +9,7 @@
 body{
     background-color: #050505;
     color: white;
-    font-family: 'Press Start 2P', cursive;
+    
 }
 .container{
     /* width: 90%; */
@@ -61,24 +61,45 @@ i:hover{
 }
 
 .heading{
-    margin: 50px auto;
+    margin-top: 50px ;
 }
 
 .heading h1{
     /* width:50%; */
-    margin: 20px auto;
-    text-transform: uppercase;
+    
     animation-name: heading;
+    font-family: 'Press Start 2P', cursive;
     animation-duration: 4s;
     /* animation-iteration-count: infinite; */
     animation-fill-mode: forwards;
-    font-size: 30px;
+    font-size: 28px;
     position: relative;
 }
+
 @keyframes heading {
     0%{left: -1000px;}
     25%{left: 20px; color: rgb(65, 9, 117);}
     50%{left:0px; color: rgb(18, 139, 7);}
-    75%{left:0px; color: rgb(153, 5, 5);}
+    75%{left:0px; color: rgb(235, 4, 180);}
     100%{left: 0px; color: white;}
+}
+span{
+    animation: span;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+@keyframes span {
+    0%{left: -1000px;}
+    25%{left: 20px; color: rgb(65, 9, 117);}
+    50%{left:0px; color: rgb(18, 139, 7);}
+    75%{left:0px; color: rgb(235, 4, 180);}
+    100%{left: 0px; color: rgb(65, 4, 105);}
+}
+.heading p{
+    margin-top: 0;
+    color: rgb(44, 36, 36);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    opacity: 0.4;
 }
