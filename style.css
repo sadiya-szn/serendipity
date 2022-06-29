@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@
 body{
     background-color: #050505;
     color: white;
+    font-family: 'Press Start 2P', cursive;
 }
 .container{
     /* width: 90%; */
@@ -69,7 +72,7 @@ i:hover{
     animation-duration: 4s;
     /* animation-iteration-count: infinite; */
     animation-fill-mode: forwards;
-    font-size: 50px;
+    font-size: 30px;
     position: relative;
 }
 @keyframes heading {
