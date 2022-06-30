@@ -86,12 +86,13 @@ i:hover{
 span{
     animation: span;
     animation-duration: 4s;
-    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode: forwards; */
     position: relative;
 }
 @keyframes span {
-    0%{left: -1000px;}
-    25%{left: 20px; color: rgb(65, 9, 117);}
+    0%{color: rgb(65, 9, 117);}
+    25%{ color: rgb(65, 9, 117);}
     50%{left:0px; color: rgb(18, 139, 7);}
     75%{left:0px; color: rgb(235, 4, 180);}
     100%{left: 0px; color: rgb(65, 4, 105);}
