@@ -66,7 +66,7 @@ i:hover{
 
 .heading h1{
     /* width:50%; */
-    
+    line-height: 40px;
     animation-name: heading;
     font-family: 'Press Start 2P', cursive;
     animation-duration: 4s;
@@ -98,8 +98,25 @@ span{
 }
 .heading p{
     margin-top: 0;
-    color: rgb(44, 36, 36);
+    color: rgb(85, 84, 84);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
-    opacity: 0.4;
+}
+.welcome{
+    color: rgb(65, 4, 105);
+    margin-left: auto;
+    background-color: transparent;
+    border: 2px solid rgb(65, 4, 105);
+    padding: 10px;
+    outline: none;
+    margin-top: 18px;
+    position: relative;
+    font-size: 16px;
+    animation: welcome;
+    /* animation-delay: 1s; */
+    animation-duration: 3s;
+}
+@keyframes welcome{
+    0%{left: -1000px;}
+    100%{left: 0px;}
 }
