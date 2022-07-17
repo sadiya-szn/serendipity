@@ -86,8 +86,8 @@ i:hover{
 span{
     animation: span;
     animation-duration: 4s;
-    animation-iteration-count: infinite;
-    /* animation-fill-mode: forwards; */
+    /* animation-iteration-count: infinite; */
+    animation-fill-mode: forwards;
     position: relative;
 }
 @keyframes span {
