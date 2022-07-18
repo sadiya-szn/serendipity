@@ -182,7 +182,7 @@ span{
     opacity: 0;
     animation-fill-mode: forwards;
     max-width: 400px;
-    animation-delay: 2s;
+    animation-delay: 4s;
     animation-name: display2;
     animation-duration: 4s;
 }
