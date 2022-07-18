@@ -167,11 +167,11 @@ span{
 }
 
 .about2{
-    padding: 10px;
+    /* padding: 10px; */
     /* border: 1px solid green; */
     display: flex;
     color: #b1aeae;
-    margin-top: 40px;
+    margin-top: 20px;
     float: left;
     position: relative;
     justify-items: right;
@@ -192,4 +192,39 @@ span{
     50%{opacity: 25%; left: 0px;}
     75%{opacity: 50%; left: 0px;}
     100%{opacity: 75%; left: 0px;}
+}
+
+.projects{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.col{
+    background-color: #c0bdc0;
+    /* padding: 10px; */
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.col h4{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.col a{
+    text-decoration: none;
+    padding:10px;
+    color: #440744;
+    font-weight: 500;
+    font-size: 15px;
+    width: 200px;
 }
